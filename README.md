@@ -54,5 +54,14 @@ To get connection object use below line :
 Connection connection=DriverManager.getConnection("URL in string","username","password");
 To get more clarification follow the connectivity code below:
 
-Step 5 – In this src code, we will set up the connection and get all the data from the table. we have created the ‘Connect.java‘ file in the src folder.
-
+Step 5 – In this src code, we will set up the connection and get all the data from the table. we have created different-different  file in the src folder which further connected to each other.
+1.TestDB.java 
+It is the main class of Java project which connects with contains a menu-driven code to perform the operations in Database.
+2.connect.java
+This class is used for creating the connection with MySQL through JDBC Driver.
+3. DisplayData.java
+This class is used for Display the data in the console.
+4.InsertData.java
+This class is used for Insertion of Data in the Database.
+5.UpdateData.java
+This class is used for the Updation of Data in the Database.
