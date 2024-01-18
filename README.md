@@ -26,20 +26,25 @@ Step 2 – Create a table in that database.
 
 Example:
 
-create table designation
+create table Student
 (
-    code int primary key auto_increment,
-    title char(35) not null unique
+    id int primary key,
+    name char(35) not null unique
 );
 
 This is MySQL code for creating a table.
 
 Step 3 – Now, we want to access the data of this table using Java database connectivity.
 
-Create a directory in your main drive (named gfg).
-Now, inside gfg created two more directories one named as ‘src‘ and the other ‘lib‘.
+Create a Java Project in Eclipse.
 Step 4 – We will write connectivity code in the src folder, To write connectivity code user must know the following information:
-
+Steps to Connect Java with MYSQL Database- 
+1. Load and Register Drivers
+2. Create Connection
+3. Create Statement 
+4. Execute SQL Statement
+5. Process the Result 
+6. Close the Connection
 Driver class:- The driver class for connectivity of MySQL database “com.mysql.cj.jdbc.Driver”, after the driver has been registered, we can obtain a Connection instance that is connected to a particular database by calling DriverManager.getConnection():, in this method, we need to pass URL for connection and name and password of the database.
 URL for Connection:- The connection URL for the mysql database is jdbc:mysql://localhost:3306/mydb (‘mydb’ is the name of database).
 Specify to the DriverManager which JDBC drivers to try to make Connections use below line:
@@ -49,5 +54,5 @@ To get connection object use below line :
 Connection connection=DriverManager.getConnection("URL in string","username","password");
 To get more clarification follow the connectivity code below:
 
-Step 5 – In this src code, we will set up the connection and get all the data from the table. we have created the ‘check.java‘ file in the src folder.
+Step 5 – In this src code, we will set up the connection and get all the data from the table. we have created the ‘Connect.java‘ file in the src folder.
 
