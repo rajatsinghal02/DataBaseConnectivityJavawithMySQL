@@ -37,8 +37,7 @@ This is MySQL code for creating a table.
 
 Step 3 – Now, we want to access the data of this table using Java database connectivity.
 
-Create a Java Project in Eclipse.
-Step 4 – We will write connectivity code in the src folder, To write connectivity code user must know the following information:
+Step 4 - Create a Java Project in Eclipse.We will write connectivity code in the src folder, To write connectivity code user must know the following information:
 Steps to Connect Java with MYSQL Database- 
 1. Load and Register Drivers
 2. Create Connection
@@ -57,7 +56,7 @@ To get more clarification follow the connectivity code below:
 
 Step 5 – In this src code, we will set up the connection and get all the data from the table. we have created different-different  file in the src folder which further connected to each other.
 1.TestDB.java 
-It is the main class of Java project which connects with contains a menu-driven code to perform the operations in Database.
+It is the main class of Java project which contains a menu-driven code to perform the operations in Database and connected with all the other classes.
 2.connect.java
 This class is used for creating the connection with MySQL through JDBC Driver.
 3. DisplayData.java
