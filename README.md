@@ -1,5 +1,6 @@
 Connect MYSQL Database using JDBC Driver
 JDBC- Java Database Connectivity
+
 In Java, we can connect our Java application with the MySQL database through the Java code. JDBC ( Java Database Connectivity) is one of the standard APIs for database connectivity, using it we can easily run our query, statement, and also fetch data from the database.
 Prerequisite to understand Java Database Connectivity with MySQL
 
